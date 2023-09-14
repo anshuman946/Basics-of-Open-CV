@@ -39,7 +39,7 @@ while True:
     # Draw a filled circle
     cv2.circle(image, (300, 200), 50, (0, 255, 0), thickness=-1)  # BGR color (0, 255, 0) is green, thickness=-1 for filled circle
     # Draw a filled circle
-    #cv2.circle(image, (300, 200), 50, (0, 255, 0), thickness=-1)  # BGR color (0, 255, 0) is green, thickness=-1 for filled circl
+    cv2.circle(image, (300, 200), 50, (0, 255, 0), thickness=-1)  # BGR color (0, 255, 0) is green, thickness=-1 for filled circl
     
     # Add text
     text = "OpenCV Shapes & Text"
